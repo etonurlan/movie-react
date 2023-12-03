@@ -14,7 +14,7 @@ export const kinopoiskApi = createApi({
                     limit: 10
                 },
                 headers: {
-                    'X-API-KEY': API_KEY
+                    'X-API-KEY': 'G9D7YK9-HTBMQ7G-HKM21AN-M5Q6CE8'
                 }
             })
         }),
@@ -27,7 +27,7 @@ export const kinopoiskApi = createApi({
                     year: '2020-2023'
                 },
                 headers: {
-                    'X-API-KEY': API_KEY
+                    'X-API-KEY': 'G9D7YK9-HTBMQ7G-HKM21AN-M5Q6CE8'
                 }
             })
         }),
@@ -35,7 +35,7 @@ export const kinopoiskApi = createApi({
             query: (id) => ({
                 url: `/movie/${id}`,
                 headers: {
-                    'X-API-KEY': API_KEY
+                    'X-API-KEY': 'G9D7YK9-HTBMQ7G-HKM21AN-M5Q6CE8'
                 }
             })
         }),
@@ -43,7 +43,7 @@ export const kinopoiskApi = createApi({
             query: (id) => ({
                 url: `/person/${id}`,
                 headers: {
-                    'X-API-KEY': API_KEY
+                    'X-API-KEY': 'G9D7YK9-HTBMQ7G-HKM21AN-M5Q6CE8'
                 }
             })
         }),
@@ -55,7 +55,7 @@ export const kinopoiskApi = createApi({
                     query: name,
                 },
                 headers: {
-                    'X-API-KEY': API_KEY
+                    'X-API-KEY': 'G9D7YK9-HTBMQ7G-HKM21AN-M5Q6CE8'
                 }
             })
         }),
@@ -67,7 +67,7 @@ export const kinopoiskApi = createApi({
                     query: name,
                 },
                 headers: {
-                    'X-API-KEY': API_KEY
+                    'X-API-KEY': 'G9D7YK9-HTBMQ7G-HKM21AN-M5Q6CE8'
                 }
             })
         }),
@@ -84,7 +84,7 @@ export const kinopoiskApi = createApi({
                     'genres.name': film.genres
                 },
                 headers: {
-                    'X-API-KEY': API_KEY
+                    'X-API-KEY': 'G9D7YK9-HTBMQ7G-HKM21AN-M5Q6CE8'
                 }
             })
         }),
