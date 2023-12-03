@@ -1,7 +1,5 @@
 import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react'
 
-import {API_KEY} from '../../config'
-
 export const kinopoiskApi = createApi({
     reducerPath: "kinopoiskApi",
     baseQuery: fetchBaseQuery({ baseUrl: "https://api.kinopoisk.dev/v1.4/" }),
@@ -14,7 +12,7 @@ export const kinopoiskApi = createApi({
                     limit: 10
                 },
                 headers: {
-                    'X-API-KEY': API_KEY,
+                    'X-API-KEY': 'G9D7YK9-HTBMQ7G-HKM21AN-M5Q6CE8',
                     'Access-Control-Allow-Origin': '*'
                 }
             })
